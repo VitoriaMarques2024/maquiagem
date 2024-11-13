@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Maquiagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        p {
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Maquiagem</h1>
+
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/i8hmdM3MzSY" frameborder="0" allowfullscreen></iframe>
+        <p><strong>Título:</strong> Tutorial de Maquiagem Básica</p>
+        <p><strong>Descrição:</strong> Aprenda a fazer uma maquiagem básica com dicas e truques simples.</p>
+    </div>
+
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/V3igLBVUx-I" frameborder="0" allowfullscreen></iframe>
+        <p><strong>Título:</strong> Maquiagem para Festas</p>
+        <p><strong>Descrição:</strong> Descubra como criar uma maquiagem incrível para suas festas e eventos.</p>
+    </div>
+
+</body>
+</html>
